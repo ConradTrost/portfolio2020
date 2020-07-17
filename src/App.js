@@ -5,7 +5,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap/';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import SkillsPage from './pages/SkillsPage'
+import SkillsPage from './pages/SkillsPage';
 
 import './App.css';
 
