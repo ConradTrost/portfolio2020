@@ -1,12 +1,11 @@
 import React from 'react';
 
-import { Jumbotron, Col, Row, Button, Card } from 'react-bootstrap/';
+import { Jumbotron, Col, Row, Button } from 'react-bootstrap/';
 import {ScrollToTopOnMount, SectionsContainer, Section} from 'react-fullpage';
 
-import Box from '../components/Box';
 import HomeCarousel from '../components/Home-Carousel';
-import bird from '../assets/images/birds.jpg';
 import Footer from '../components/Footer';
+import CardCols from '../components/Card';
 
 class HomePage extends React.Component {
 
@@ -53,47 +52,18 @@ class HomePage extends React.Component {
                     <HomeCarousel />
                   </Col>
                 </Row>
-
+                <a href="#sectionTwo" className="chevron-a"><i className="fas fa-chevron-down"></i></a>
               </Jumbotron>
             </Section>
             
             <Section className="idkyet">
-              <Row >
+              <Row>
                 <Col></Col>
                 <Col><h1 className="justify-content-centered display-4 ml-auto second-header">What Sets Me Apart?</h1></Col>
                 <Col></Col>
               </Row>
-              <Row>
-                <Col>
-                  <Card bg={'dark'} style={{width: '16rem' }} className="ml-auto">
-                    <Card.Img variant="top" src={bird} className="card-img" />
-                    <Card.Body>
-                      <Card.Title>Bird.</Card.Title>
-                      <Card.Text>This is a bird.</Card.Text>
-
-                    </Card.Body>
-                  </Card>
-                </Col>
-                  <Card bg={'dark'} style={{width: '16rem' }} className="ml-auto" >
-                    <Card.Img variant="top" src={bird} className="card-img" />
-                    <Card.Body>
-                      <Card.Title>Bird.</Card.Title>
-                      <Card.Text>This is a bird.</Card.Text>
-
-                    </Card.Body>
-                  </Card>
-                <Col>
-                  <Card bg={'dark'} style={{width: '16rem' }} className="ml-auto">
-                    <Card.Img variant="top" src={bird} className="card-img" />
-                    <Card.Body>
-                      <Card.Title>Bird.</Card.Title>
-                      <Card.Text>This is a bird.</Card.Text>
-
-                    </Card.Body>
-                  </Card>
-                </Col>
-                <Col>
-                </Col>
+              <Row className="card-columns" >
+                <CardCols />
               </Row>
 
               <Footer />

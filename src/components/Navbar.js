@@ -15,8 +15,8 @@ class Navigation extends React.Component {
               
                 <Nav className="ml-auto">
                   <Link className="nav-link" to="/about">About</Link>
-                  <Link className="nav-link" to="/skills">Projects</Link>
-                  <Link className="nav-link" to="/about">Resumé</Link>
+                  <Link className="nav-link" to="/projects">Projects</Link>
+                  <Link className="nav-link" to="/resume">Resumé</Link>
                   <Link className="nav-link" to="/contact">Contact</Link>
                 </Nav>
             </Navbar.Collapse>

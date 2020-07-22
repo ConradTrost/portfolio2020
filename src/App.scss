@@ -1,7 +1,8 @@
-$primary-color: rgb(0, 0, 0);
+$primary-color: rgb(29, 29, 29);
 $secondary-color: rgb(255, 82, 2);
-$tertiary-color: rgb(211, 103, 53);
+$tertiary-color: rgb(218, 97, 42);
 $off-white: rgb(187, 184, 180);
+$lighter-white: rgb(207, 207, 207);
 
 body * {
     // font-family: 'Courier New', Courier, monospace, monospace;
@@ -14,8 +15,26 @@ body * {
     font-weight: 200;
 }
 
+.chevron-a {
+    text-decoration: none;
+    color: $off-white;
+    width: 5%;
+}
+
+.chevron-a:hover {
+    color: $tertiary-color;
+}
+
 .second-header {
     font-weight: 200;
+}
+
+.fa-chevron-down {
+    font-size: 34px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
 }
 
 .jumbotron{
@@ -74,7 +93,7 @@ body * {
 .idkyet {
       height: 100vh;
       width: 100%;
-      background-color: $tertiary-color;
+      background-color: $lighter-white;
       margin: 0;
 }
 
@@ -84,7 +103,7 @@ body * {
 
 .left-column {
     width: auto;
-    margin-top: 15vh;
+    margin-top: 12vh;
     margin-left: 40px;
     float: left;
 }
@@ -111,7 +130,8 @@ body * {
 }
 
 .btn-div-right {
-    float: right;
+    justify-content: center;
+    margin: auto;
 }
 
 .hire-btn-right {
@@ -145,9 +165,9 @@ body * {
     margin-bottom: 8vh;
 }
 
-.display-lower {
-    text-align: right;
-}
+// .display-lower {
+//     text-align: right;
+// }
 
 .carousel {
     vertical-align: middle;
@@ -178,4 +198,17 @@ a:hover {
     .carousel-col {
         display: none;
     }
+}
+
+.card {
+    background-color: $primary-color;
+}
+
+.card-columns .col-md-3 {
+    margin: auto;
+    text-align: center;
+}
+
+.card-columns {
+    margin-top: 40px;
 }

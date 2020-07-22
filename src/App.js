@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap/';
 
 
 import HomePage from './pages/HomePage';
-import SkillsPage from './pages/SkillsPage';
+import ProjectPage from './pages/ProjectPage';
 import Navigation from './components/Navbar';
 
 
@@ -21,7 +21,7 @@ class App extends React.Component {
           <Navigation />
 
           <Route path="/" exact render={() => <HomePage />} />
-          <Route path="/skills" render={() => <SkillsPage />} />
+          <Route path="/projects" render={() => <ProjectPage />} />
 
 
         </Container>
