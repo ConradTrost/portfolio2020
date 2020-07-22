@@ -6,6 +6,7 @@ import {ScrollToTopOnMount, SectionsContainer, Section} from 'react-fullpage';
 import HomeCarousel from '../components/Home-Carousel';
 import Footer from '../components/Footer';
 import CardCols from '../components/Card';
+import profPhoto from '../assets/images/prof-img.png';
 
 class HomePage extends React.Component {
 
@@ -33,7 +34,8 @@ class HomePage extends React.Component {
                         {/* <h2 className="centered-jumbo ml-auto display-3">Quality Website Creation</h2> */}
                           <div className="display-upper">
                             <p className="lead tertiary">Who am I?</p>
-                            <h3 className=" display-4 subTitle">A Passion of Mine</h3>
+                            {/* <h3 className=" display-4 subTitle">A Passion of Mine</h3> */}
+                            <h3 className=" display-4 subTitle">I am a full-stack web developer based out of Dallas, Texas.</h3>
                             {/* <p className="lead tertiary">Creative designer, using contrasting colors and modern design to create front-end code that pops.</p> */}
                             <p className="lead tertiary thinner">I find passion in seeing results from lines of words and characters.</p>
                             <p className="lead tertiary thinner">Experience with React, HTML, CSS, JavaScript, Bootstrap.</p>
@@ -53,7 +55,8 @@ class HomePage extends React.Component {
                   </Col>
                   <Col className="carousel-col" sm={12} md={5}>
                     {/* <Box /> */}
-                    <HomeCarousel />
+                    {/* <HomeCarousel /> */}
+                    <img className="prof-img" src={profPhoto} alt={profPhoto}></img>
                   </Col>
                 </Row>
                 <a href="#sectionTwo" className="chevron-a"><i className="fas fa-chevron-down"></i></a>
@@ -63,7 +66,7 @@ class HomePage extends React.Component {
             <Section className="idkyet">
               <Row>
                 <Col></Col>
-                <Col><h1 className="justify-content-centered display-4 ml-auto second-header">What Sets Me Apart?</h1></Col>
+                <Col><h1 className="justify-content-centered display-4 ml-auto second-header tertiary">What Sets Me Apart?</h1></Col>
                 <Col></Col>
               </Row>
               <Row className="card-columns" >
