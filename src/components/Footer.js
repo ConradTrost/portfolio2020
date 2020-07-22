@@ -1,22 +1,19 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Footer() {
-    return(
-        <footer className="mt-5">
-            <Container fluid={true}>
-                <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
-                        Conrad Trost
-                    </Col>
 
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Conrad Trost
-                    </Col>
-                </Row>
-            </Container>
-        </footer>
-    )
+class Footer extends React.Component {
+
+  render() {
+    return (
+        <>
+            <div className="footer">
+              <h3 className="tertiary">Follow me on github</h3>
+            </div>
+        </>
+    );
+  }
 }
+
 
 export default Footer;

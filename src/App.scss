@@ -1,0 +1,181 @@
+$primary-color: rgb(0, 0, 0);
+$secondary-color: rgb(255, 82, 2);
+$tertiary-color: rgb(211, 103, 53);
+$off-white: rgb(187, 184, 180);
+
+body * {
+    // font-family: 'Courier New', Courier, monospace, monospace;
+    font-weight: 200;
+}
+
+.tertiary {
+    color: $off-white;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.second-header {
+    font-weight: 200;
+}
+
+.jumbotron{
+    padding: 0;
+    height:100vh;
+    width:100%;
+    position: relative;
+    margin: 0;
+    background-color: $primary-color ;
+    color: $secondary-color;
+    display: grid;
+}
+
+.jumbotron h2 {
+    font-weight: 200;
+}
+
+.jumbotron h3 {
+    color: $tertiary-color;
+    font-weight: 100;
+    // font-family: monospace;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.342);
+    
+}
+
+.nav-bar-brand {
+    color: $off-white !important;
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.nav-bar-brand i {
+    padding: 0 15px;
+    color: $tertiary-color;
+}
+
+
+.navbar-nav a {
+    color: $off-white !important;
+    font-size: 22px;
+}
+// background:linear-gradient(rgba(0, 108, 250, 0.5),transparent);
+// background-color:rgb(0, 255, 157) /*this your primary color*/
+
+.centered-jumbo {
+    margin: auto;  
+    margin-top: 50px;
+}
+
+.idkyet {
+      height: 100vh;
+      width: 100%;
+      background-color: $tertiary-color;
+      margin: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.left-column {
+    width: auto;
+    margin-top: 15vh;
+    margin-left: 40px;
+    float: left;
+}
+
+.right-column {
+    color: $tertiary-color;
+    margin: 15vh 10%;
+    font-weight: 200;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    box-shadow: rgb(80, 80, 80) 2px 2px 12px 1px;
+}
+
+.subTitle {
+    margin: 10px auto;
+    font-style: italic;
+}
+
+.btn-div {
+    width: 30%;
+    justify-content: center;
+}
+
+.btn-div-right {
+    float: right;
+}
+
+.hire-btn-right {
+    float: right;
+}
+
+.hire-btn {
+    color: $tertiary-color;
+    border: 1px solid $tertiary-color;
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+
+.hire-btn:hover {
+    background-color: $tertiary-color;
+    transform: scale(1.05);
+}
+
+.canvas {
+    overflow: visible !important;
+}
+
+.second-header {
+    padding-top: 10vh;
+    margin: auto;
+    text-align: center;
+}
+
+.display-upper {
+    margin-bottom: 8vh;
+}
+
+.display-lower {
+    text-align: right;
+}
+
+.carousel {
+    vertical-align: middle;
+}
+
+a:hover {
+    color: $tertiary-color !important;
+}
+
+.btn-div a:hover {
+    color: $off-white !important;
+}
+
+.card {
+    color: $off-white;
+}
+
+.footer {
+    height: 80px;
+    background-color: $primary-color;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+@media only screen and (max-width: 770px) {
+    .carousel-col {
+        display: none;
+    }
+}
