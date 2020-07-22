@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.638698f2.chunk.css",
-    "main.js": "/static/js/main.cb3eadfc.chunk.js",
-    "main.js.map": "/static/js/main.cb3eadfc.chunk.js.map",
+    "main.css": "/static/css/main.59910cea.chunk.css",
+    "main.js": "/static/js/main.2dc630fc.chunk.js",
+    "main.js.map": "/static/js/main.2dc630fc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.96416f07.js",
     "runtime-main.js.map": "/static/js/runtime-main.96416f07.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4334550b.chunk.js": "/static/js/2.4334550b.chunk.js",
-    "static/js/2.4334550b.chunk.js.map": "/static/js/2.4334550b.chunk.js.map",
+    "static/js/2.0e1e1c90.chunk.js": "/static/js/2.0e1e1c90.chunk.js",
+    "static/js/2.0e1e1c90.chunk.js.map": "/static/js/2.0e1e1c90.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f9fc253fa61de968d743b57132f93793.js": "/precache-manifest.f9fc253fa61de968d743b57132f93793.js",
+    "precache-manifest.629b4f1afc87d2a8d603335cc85246cc.js": "/precache-manifest.629b4f1afc87d2a8d603335cc85246cc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.638698f2.chunk.css.map": "/static/css/main.638698f2.chunk.css.map",
-    "static/js/2.4334550b.chunk.js.LICENSE.txt": "/static/js/2.4334550b.chunk.js.LICENSE.txt",
+    "static/css/main.59910cea.chunk.css.map": "/static/css/main.59910cea.chunk.css.map",
+    "static/js/2.0e1e1c90.chunk.js.LICENSE.txt": "/static/js/2.0e1e1c90.chunk.js.LICENSE.txt",
     "static/media/birds.jpg": "/static/media/birds.c0bc74d0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.96416f07.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4334550b.chunk.js",
-    "static/css/main.638698f2.chunk.css",
-    "static/js/main.cb3eadfc.chunk.js"
+    "static/js/2.0e1e1c90.chunk.js",
+    "static/css/main.59910cea.chunk.css",
+    "static/js/main.2dc630fc.chunk.js"
   ]
 }
