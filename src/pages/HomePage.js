@@ -27,27 +27,31 @@ class HomePage extends React.Component {
             <Section>
               <Jumbotron className="jumbotron jumbotron-fluid">
                 <Row>
-                  <Col sm={12} md={6}>
+                  <Col sm={12} md={7}>
                     <div className="left-column">
-                      {/* <h2 className="centered-jumbo ml-auto display-3">Quality Website Creation</h2> */}
-                      <div className="display-upper">
-                        <h3 className=" display-4 subTitle">Full Stack Web Developer.</h3>
-                        <p className="lead tertiary">Creative designer, using contrasting colors and modern design to create front-end code that pops.</p>
-                        <p className="lead tertiary">Experience with React, HTML, CSS, JavaScript, Bootstrap.</p>
-                        <div className="btn-div">
-                          <Button className="hire-btn" variant="outline-dark" size="lg" href="/services" block>Get in Touch!</Button>
+                      <div className="left-column-inner">
+                        {/* <h2 className="centered-jumbo ml-auto display-3">Quality Website Creation</h2> */}
+                          <div className="display-upper">
+                            <p className="lead tertiary">Who am I?</p>
+                            <h3 className=" display-4 subTitle">A Passion of Mine</h3>
+                            {/* <p className="lead tertiary">Creative designer, using contrasting colors and modern design to create front-end code that pops.</p> */}
+                            <p className="lead tertiary thinner">I find passion in seeing results from lines of words and characters.</p>
+                            <p className="lead tertiary thinner">Experience with React, HTML, CSS, JavaScript, Bootstrap.</p>
+                            {/* <div className="btn-div">
+                              <Button className="hire-btn" variant="outline-dark" size="lg" href="/services" block>Get in Touch!</Button>
+                            </div> */}
+                          </div>
+                          <div className="display-lower">
+                            <p className="lead tertiary thinner">Back-end architect, creating sturdy server-side databases.</p>
+                            <p className="lead tertiary thinner">Experience with Node.js, MongoDB, Express.js.</p>
+                            {/* <div className="btn-div btn-div-right">
+                              <Button className="hire-btn hire-btn-right" variant="outline-dark" size="lg" href="/services" block>Resumé</Button>
+                            </div> */}
+                          </div>
                         </div>
-                      </div>
-                      <div className="display-lower">
-                        <p className="lead tertiary">Back-end architect, creating sturdy server-side databases.</p>
-                        <p className="lead tertiary">Experience with Node.js, MongoDB, Express.js.</p>
-                        <div className="btn-div btn-div-right">
-                          <Button className="hire-btn hire-btn-right" variant="outline-dark" size="lg" href="/services" block>Resumé</Button>
-                        </div>
-                      </div>
                     </div>
                   </Col>
-                  <Col className="carousel-col" sm={12} md={6}>
+                  <Col className="carousel-col" sm={12} md={5}>
                     {/* <Box /> */}
                     <HomeCarousel />
                   </Col>

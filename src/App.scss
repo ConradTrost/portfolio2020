@@ -1,18 +1,21 @@
-$primary-color: rgb(29, 29, 29);
-$secondary-color: rgb(255, 82, 2);
-$tertiary-color: rgb(218, 97, 42);
+$primary-color: rgb(45,44,67);
+$secondary-color: rgb(187, 184, 180);
+$tertiary-color: rgb(187, 184, 180);
 $off-white: rgb(187, 184, 180);
-$lighter-white: rgb(207, 207, 207);
+$new-secondary-color: rgb(43, 43, 66);
+$lighter-white: rgb(228, 227, 227);
+$carousel-color: rgb(40, 52, 70);
+$lighter-version: rgb(99, 125, 165);
 
 body * {
-    // font-family: 'Courier New', Courier, monospace, monospace;
-    font-weight: 200;
+    font-family: "Old Standard TT", "Playfair Display", Georgia, 'Times New Roman', Times, serif, Courier, monospace, monospace;
+    font-weight: 400;
 }
 
 .tertiary {
     color: $off-white;
-    font-style: italic;
-    font-weight: 200;
+
+    font-weight: 400;
 }
 
 .chevron-a {
@@ -26,7 +29,7 @@ body * {
 }
 
 .second-header {
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .fa-chevron-down {
@@ -43,18 +46,20 @@ body * {
     width:100%;
     position: relative;
     margin: 0;
-    background-color: $primary-color ;
-    color: $secondary-color;
+    background-color: $primary-color;
+    // background-image: linear-gradient(to bottom, rgb(28, 31, 39), rgba(114, 116, 167, 0.089)) ;
+    color: $lighter-white;
     display: grid;
 }
 
 .jumbotron h2 {
+    color: white;
     font-weight: 200;
 }
 
 .jumbotron h3 {
-    color: $tertiary-color;
-    font-weight: 100;
+    color: $lighter-white;
+    font-weight: 400;
     // font-family: monospace;
 }
 
@@ -77,6 +82,10 @@ body * {
     color: $tertiary-color;
 }
 
+.trost-nav {
+    color: $lighter-version;
+}
+
 
 .navbar-nav a {
     color: $off-white !important;
@@ -93,7 +102,7 @@ body * {
 .idkyet {
       height: 100vh;
       width: 100%;
-      background-color: $lighter-white;
+      background-color: $primary-color;
       margin: 0;
 }
 
@@ -102,8 +111,8 @@ body * {
 }
 
 .left-column {
-    width: auto;
-    margin-top: 12vh;
+    width: 95%;
+    margin-top: 16vh;
     margin-left: 40px;
     float: left;
 }
@@ -116,12 +125,13 @@ body * {
 
 .carousel-inner {
     border-radius: 10px;
-    box-shadow: rgb(80, 80, 80) 2px 2px 12px 1px;
+    box-shadow: 0px 0px 10px -2px black;
 }
 
 .subTitle {
     margin: 10px auto;
-    font-style: italic;
+    text-shadow: 3px 3px black;
+
 }
 
 .btn-div {
@@ -187,11 +197,15 @@ a:hover {
 
 .footer {
     height: 80px;
-    background-color: $primary-color;
+    background-color: $off-white;
     bottom: 0;
     left: 0;
     position: absolute;
     width: 100%;
+}
+
+.footer h3 {
+    color: $primary-color;
 }
 
 @media only screen and (max-width: 770px) {
@@ -211,4 +225,24 @@ a:hover {
 
 .card-columns {
     margin-top: 40px;
+}
+
+.carousel-col {
+    // background-color: $off-white;
+    background-color: rgb(40, 52, 70);
+    height: 100vh;
+    position: relative;
+    box-shadow: 0px 0px 10px -2px black;
+}
+
+.left-column-inner {
+    height: 65vh;
+    width: 95%;
+    padding-right: 26px;
+    border-right: 1px solid $lighter-version;
+    box-shadow: 5px 0px 4px -4px black;
+}
+
+.thinner {
+    font-weight: 200;
 }

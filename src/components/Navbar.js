@@ -7,8 +7,8 @@ class Navigation extends React.Component {
 
   render() {
     return (
-          <Navbar expand="lg" fixed="top" className="nav-bar p-0 ml-auto" fluid="false" >
-            <Navbar.Brand href="/" className="nav-bar-brand"><i className="fas fa-user-tie"></i>Conrad Trost, Portfolio</Navbar.Brand>
+          <Navbar expand="lg" fixed="top" className="nav-bar p-0 ml-auto" fluid="false" bg="transparent" >
+            <Navbar.Brand href="/" className="nav-bar-brand"><i className="fas fa-user-tie"></i>Conrad <span className="trost-nav">Trost</span></Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
